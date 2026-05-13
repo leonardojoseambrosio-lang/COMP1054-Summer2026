@@ -24,17 +24,18 @@ body {
   background-color: #fff;
 }
 
-site-header {
+/*class need a . before the name*/
+.site-header {
   background-color: #eeeeee;
   padding: 8px;
 }
 
 
 .label {
-  color: #cccccc;
+  color: #181818;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 22px;
 }
 
 h1 {
@@ -54,21 +55,26 @@ h3 {
 }
 
 .intro-text {
-  font-size: 14px;
+  font-size: 16px;
   max-width: none;
 }
 
 .main-nav ul {
+  display: flex;
   margin: 0;
-  padding-left: 40px;
+  font-size: 1.5rem;
+  list-style: none;
+  padding-left: 20px;
 }
 
 .main-nav a {
   color: #999999;
   text-decoration: none;
+  margin: 10px;
 }
 
-.main-nav a:hovr {
+/*typo hover - corrected*/
+.main-nav a:hover {
   color: black;
 }
 
@@ -99,7 +105,7 @@ section {
 }
 
 .featured {
-  background-colour: #ffffcc;
+  background-color: #ffffcc;
 }
 
 .cta-button {
