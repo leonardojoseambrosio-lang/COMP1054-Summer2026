@@ -19,6 +19,22 @@ body {
 ================================ */
 
 .hero {
+    width: 85%;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 5rem auto;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /*combine linear gradients with background*/
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.15),rgba(0,0,0,0.85)),
+    
+    url('assets/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 }
 
 /* ===============================
